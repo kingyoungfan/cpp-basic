@@ -8,8 +8,21 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
+int vt();
+
+int point();
+
+int ref();
+
+int time();
+
+int in();
+
+int box();
+
+int main(int argc, const char *argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello, Yangyang!\n";
+    box();
     return 0;
 }
