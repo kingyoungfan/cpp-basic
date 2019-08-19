@@ -70,18 +70,18 @@ CMakeFiles/cpp_basic.dir/cpp-basic/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_basic.dir/cpp-basic/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/main.cpp -o CMakeFiles/cpp_basic.dir/cpp-basic/main.cpp.s
 
-CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o: CMakeFiles/cpp_basic.dir/flags.make
-CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o: ../cpp-basic/variable-type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/cpp-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o -c /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/variable-type.cpp
+CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o: CMakeFiles/cpp_basic.dir/flags.make
+CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o: ../cpp-basic/src/variable-type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yangyang/workspace/personal/cpp-basic/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o -c /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/variable-type.cpp
 
-CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/variable-type.cpp > CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.i
+CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/variable-type.cpp > CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.i
 
-CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/variable-type.cpp -o CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.s
+CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/variable-type.cpp -o CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.s
 
 CMakeFiles/cpp_basic.dir/cpp-basic/src/points.cpp.o: CMakeFiles/cpp_basic.dir/flags.make
 CMakeFiles/cpp_basic.dir/cpp-basic/src/points.cpp.o: ../cpp-basic/src/points.cpp
@@ -151,7 +151,7 @@ CMakeFiles/cpp_basic.dir/cpp-basic/src/class.cpp.s: cmake_force
 # Object files for target cpp_basic
 cpp_basic_OBJECTS = \
 "CMakeFiles/cpp_basic.dir/cpp-basic/main.cpp.o" \
-"CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o" \
+"CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o" \
 "CMakeFiles/cpp_basic.dir/cpp-basic/src/points.cpp.o" \
 "CMakeFiles/cpp_basic.dir/cpp-basic/src/ref.cpp.o" \
 "CMakeFiles/cpp_basic.dir/cpp-basic/src/datetime.cpp.o" \
@@ -162,7 +162,7 @@ cpp_basic_OBJECTS = \
 cpp_basic_EXTERNAL_OBJECTS =
 
 cpp_basic: CMakeFiles/cpp_basic.dir/cpp-basic/main.cpp.o
-cpp_basic: CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o
+cpp_basic: CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o
 cpp_basic: CMakeFiles/cpp_basic.dir/cpp-basic/src/points.cpp.o
 cpp_basic: CMakeFiles/cpp_basic.dir/cpp-basic/src/ref.cpp.o
 cpp_basic: CMakeFiles/cpp_basic.dir/cpp-basic/src/datetime.cpp.o

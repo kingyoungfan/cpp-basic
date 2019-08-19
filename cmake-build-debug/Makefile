@@ -285,32 +285,32 @@ cpp-basic/src/ref.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/src/ref.cpp.s
 .PHONY : cpp-basic/src/ref.cpp.s
 
-cpp-basic/variable-type.o: cpp-basic/variable-type.cpp.o
+cpp-basic/src/variable-type.o: cpp-basic/src/variable-type.cpp.o
 
-.PHONY : cpp-basic/variable-type.o
+.PHONY : cpp-basic/src/variable-type.o
 
 # target to build an object file
-cpp-basic/variable-type.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o
-.PHONY : cpp-basic/variable-type.cpp.o
+cpp-basic/src/variable-type.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o
+.PHONY : cpp-basic/src/variable-type.cpp.o
 
-cpp-basic/variable-type.i: cpp-basic/variable-type.cpp.i
+cpp-basic/src/variable-type.i: cpp-basic/src/variable-type.cpp.i
 
-.PHONY : cpp-basic/variable-type.i
+.PHONY : cpp-basic/src/variable-type.i
 
 # target to preprocess a source file
-cpp-basic/variable-type.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.i
-.PHONY : cpp-basic/variable-type.cpp.i
+cpp-basic/src/variable-type.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.i
+.PHONY : cpp-basic/src/variable-type.cpp.i
 
-cpp-basic/variable-type.s: cpp-basic/variable-type.cpp.s
+cpp-basic/src/variable-type.s: cpp-basic/src/variable-type.cpp.s
 
-.PHONY : cpp-basic/variable-type.s
+.PHONY : cpp-basic/src/variable-type.s
 
 # target to generate assembly for a file
-cpp-basic/variable-type.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.s
-.PHONY : cpp-basic/variable-type.cpp.s
+cpp-basic/src/variable-type.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_basic.dir/build.make CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.s
+.PHONY : cpp-basic/src/variable-type.cpp.s
 
 # Help Target
 help:
@@ -339,9 +339,9 @@ help:
 	@echo "... cpp-basic/src/ref.o"
 	@echo "... cpp-basic/src/ref.i"
 	@echo "... cpp-basic/src/ref.s"
-	@echo "... cpp-basic/variable-type.o"
-	@echo "... cpp-basic/variable-type.i"
-	@echo "... cpp-basic/variable-type.s"
+	@echo "... cpp-basic/src/variable-type.o"
+	@echo "... cpp-basic/src/variable-type.i"
+	@echo "... cpp-basic/src/variable-type.s"
 .PHONY : help
 
 

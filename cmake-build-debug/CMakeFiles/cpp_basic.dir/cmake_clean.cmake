@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp_basic.dir/cpp-basic/main.cpp.o"
-  "CMakeFiles/cpp_basic.dir/cpp-basic/variable-type.cpp.o"
+  "CMakeFiles/cpp_basic.dir/cpp-basic/src/variable-type.cpp.o"
   "CMakeFiles/cpp_basic.dir/cpp-basic/src/points.cpp.o"
   "CMakeFiles/cpp_basic.dir/cpp-basic/src/ref.cpp.o"
   "CMakeFiles/cpp_basic.dir/cpp-basic/src/datetime.cpp.o"

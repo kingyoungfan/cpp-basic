@@ -101,7 +101,7 @@
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/ref.cpp">
 			<Option target="cpp_basic"/>
 		</Unit>
-		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/variable-type.cpp">
+		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/variable-type.cpp">
 			<Option target="cpp_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/CMakeLists.txt">
