@@ -1,0 +1,3 @@
+/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/cmake-build-debug/CMakeFiles/cpp-basic.dir
