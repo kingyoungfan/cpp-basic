@@ -89,7 +89,13 @@
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/datetime.cpp">
 			<Option target="cpp_basic"/>
 		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/inheritance.cpp">
+			<Option target="cpp_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/io.cpp">
+			<Option target="cpp_basic"/>
+		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/overload.cpp">
 			<Option target="cpp_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/points.cpp">
@@ -98,10 +104,13 @@
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/points.h">
 			<Option target="cpp_basic"/>
 		</Unit>
+		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/polymorphism.cpp">
+			<Option target="cpp_basic"/>
+		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/ref.cpp">
 			<Option target="cpp_basic"/>
 		</Unit>
-		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/variable-type.cpp">
+		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/cpp-basic/src/template.cpp">
 			<Option target="cpp_basic"/>
 		</Unit>
 		<Unit filename="/Users/yangyang/workspace/personal/cpp-basic/CMakeLists.txt">

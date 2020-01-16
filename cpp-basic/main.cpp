@@ -20,9 +20,15 @@ int in();
 
 int box();
 
+void print();
+
+int area(int width, int height);
+
+int area();
+void ploy();
 int main(int argc, const char *argv[]) {
     // insert code here...
     std::cout << "Hello, Yangyang!\n";
-    box();
+
     return 0;
 }
